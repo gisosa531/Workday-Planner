@@ -1,0 +1,8 @@
+homework requirements:
+[] It should have the current day displayed at the top of the calendar
+[] It should have timeblocks for standard business hours
+[] It should have timeblocks that are  color coded to indicate whether it is in the past, present, or future
+[] It should have click function for timeblock
+[] It should have save button for that timeblock
+[] It should have text for that event saved in local storage
+[] It should have saved events persisting after refresh

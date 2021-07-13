@@ -25,7 +25,7 @@ textarea {
   white-space: pre-wrap;
 }
 
-.time-block {
+.timeBlock {
   text-align: center;
   border-radius: 15px;
 }
@@ -58,7 +58,7 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 5px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
