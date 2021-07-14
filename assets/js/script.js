@@ -18,6 +18,7 @@ $(document).ready(function () {
             $('.notification').removeClass('working');
           }, 9000);
         
+          // Display text when item is clicked
           $(".saveBtn").animate({
             width: '300px',
           }, 1000);
@@ -43,7 +44,7 @@ $(document).ready(function () {
         var currentTime = moment().hour();
         //loops each time block
         $(".timeblock").each(function () {
-            // converts string to integers
+            // converts string to integers and array
             var blockTime = parseInt($(this).attr("id").split("time")[1]);
             console.log( blockTime, currentTime)
 

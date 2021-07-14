@@ -2,8 +2,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: palegoldenrod;
 }
 
+.display-3{
+  color: navy
+}
 textarea {
   background: transparent;
   border: none;
@@ -29,6 +33,7 @@ textarea {
 .timeBlock {
   text-align: center;
   border-radius: 15px;
+  
 }
 
 .row {
@@ -41,6 +46,7 @@ textarea {
   color:purple;
   font-weight: bolder;
   font-size: larger;
+  border-left: 1px solid navy;
   
 }
 
