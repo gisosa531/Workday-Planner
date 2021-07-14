@@ -28,3 +28,5 @@ This simple day planner loops through the current day's hours (8am-5pm) when the
 
 ### Images
 <img src=./assets/images/WorkdayPlannerNormal.png alt="Workday Planner Homepage">
+
+<img src=./assets/images/WorkdayScheduler.gif alt="Workday saving items">
