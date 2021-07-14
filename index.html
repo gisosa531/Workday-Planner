@@ -27,10 +27,12 @@
   <body>
     <header class="jumbotron bg-warning">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead"><em>simple calendar app for scheduling your work day</em> </p>
+      <p class="middlelead"><em>simple calendar app for scheduling your work day</em> </p>
       <p id="currentDay" class="font-weight-bold lead"></p>
     </header>
     
+    <section class='text-center notification' id="notice" style="display:none">Appointment Added to <code>localStorage</code></section>
+
     <div class="container">
 
       <!-- Timeblocks go here -->
@@ -114,7 +116,7 @@
       <button class="btn saveBtn btn-success col-md-1"><i class="far fa-calendar"></i></button>
       </div>
     </div>
-
+    
     <!-- Fixed Link to Javascript File -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
